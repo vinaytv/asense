@@ -25,7 +25,7 @@ public class CloudServiceConfig {
     @Bean(name = "aws-bean")
     @ConditionalOnProperty(prefix = "cloud", name = "service", havingValue = "AWS")
     public AmazonSQS amazonSQSClient() {
-        BasicAWSCredentials awsCredentials = new BasicAWSCredentials("AKIA5PCQHHR6OAXBJI4S", "3dXpBj+eMrf5BTG4wTw/VXY+s0qFhRd4wBtMXpvE");
+        BasicAWSCredentials awsCredentials = new BasicAWSCredentials("", "");
         return AmazonSQSClientBuilder.standard()
                 .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
                 .withRegion("ap-south-1")
