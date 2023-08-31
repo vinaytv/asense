@@ -1,7 +1,0 @@
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/service/impl/GoogleQueue.java
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/exceptions/CloudQueueServiceException.java
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/service/impl/AzureQueue.java
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/dto/MessageRequest.java
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/service/CloudQueueService.java
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/configuration/CloudServiceConfig.java
-/Users/vinay.tv/Downloads/cloudservice/src/main/java/com/alphasense/cloudservice/service/impl/AwsQueue.java

@@ -1,8 +1,0 @@
-com/alphasense/cloudservice/service/CloudQueueService.class
-com/alphasense/cloudservice/exceptions/CloudQueueServiceException.class
-com/alphasense/cloudservice/dto/MessageRequest$MessageRequestBuilder.class
-com/alphasense/cloudservice/service/impl/GoogleQueue.class
-com/alphasense/cloudservice/service/impl/AzureQueue.class
-com/alphasense/cloudservice/configuration/CloudServiceConfig.class
-com/alphasense/cloudservice/service/impl/AwsQueue.class
-com/alphasense/cloudservice/dto/MessageRequest.class
