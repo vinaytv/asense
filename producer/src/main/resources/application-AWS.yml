@@ -1,0 +1,24 @@
+server:
+  port: 9096
+cloud:
+  service: AWS
+  aws:
+    region:
+      auto: false
+      static: ap-south-1
+      use-default-aws-region-chain: false
+    stack: false
+    stack.auto: false
+queue:
+  name: My-Queue
+logging:
+  level:
+    com:
+      amazonaws:
+        internal:
+          InstanceMetadataServiceResourceFetcher: error
+        util:
+aws:
+  access_key: **********
+  secret_key: **********
+
