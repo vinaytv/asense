@@ -11,22 +11,24 @@ For using this library:
 ## Using the library
 
 - Add this library as a maven dependency in your application.
-- annotate main class of your application like shown below
+- Annotate main class of your application with component scan like shown below
 - Autowire CloudQueueService like shown below, this has send and receive message method.
 
 ```java
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 @ComponentScan(basePackages = {"com.alphasense.cloudservice"})
+
 @Autowired
 private CloudQueueService cloudQueueService;
+
 cloudQueueService.sendMessage(String payload);
+
 List<String> messages=cloudQueueService.receiveMessage();
 /*
-        process messages
+ process messages
  */
-
-
 
 ```
 
